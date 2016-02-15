@@ -3,22 +3,30 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Git Love Letter</title>
-		<link rel="stylesheet" href="css/bash.css">
+		<link rel="stylesheet" href="css/git-style.css">
+		<link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body class="home">
-			<header>
-				<h1>Love letter to Git </h1>
+	<div class="container">
+			<header class="left">
+				<h1>Love <br>letter <br>to Git </h1>
 			</header>
-			<div class="container">
-			<section>
-			<p>Git, my sweetheart,<br> 
+			<section class="box leftLine">
+			<p>Git, my sweetheart,<br><br> How I made it this far without your support is a mystery to me. You are the most exquisite versioning system to ever exist, and when I’m with you I know that I will be secure and safe, but always have the freedom to change. While you have such a complex and and intricate interior, you make everything simple for me. As I update my files you take snapshots of each version for me, like an eternal scrapbook of our love. You have provided an excellent source of organization in my life and helped me to maintain and improve upon my creations. </p>
 
-				How I made it this far without your support is a mystery to me. You are the most exquisite versioning system to ever exist, and when I’m with you I know that I will be secure and safe, but always have the freedom to change. While you have such a complex and and intricate interior, you make everything simple for me. As I update my files you take snapshots of each version for me, like an eternal scrapbook of our love. You have provided an excellent source of organization in my life and helped me to maintain and improve upon my creations. </p>
-			<p>
-				I admit, when I first was introduced to you I was quite intimidated. Even with my hesitation, I went to https://git-scm.com and installed your software onto my computer. The process proved to be easy, I just followed the prompts given, and thus you were now on my laptop. Giddy with excitement and anticipation, I opened up my terminal and our love affair began. </p>
+			<p>I admit, when I first was introduced to you I was quite intimidated. Even with my hesitation, I went to <a href="https://git-scm.com ">https://git-scm.com</a> and installed your software onto my computer. The process proved to be easy, I just followed the prompts given, and thus you were now on my laptop. Giddy with excitement and anticipation, I opened up my terminal and our love affair began. </p>
 
-			<p>
-				To start the process you have to get into the desired directory. Once there, the magic begins. To make this directory a repository we simply type “git init,” which allows us to have a versioning system for this directory. With this command, you create a secret file for me, the .git file, which is hidden to the naked eye but revealed with our secret password, the command ls -la. From here we can create files, add files, or create versions that will be stored here. Once I have created a new file, or updated one, say an index page, we can stage it through the command git add (followed by the file name OR a period, the . allows you to add all files that have been changed or added). To see if this has worked you have created the wonderful command git status. Once I type this, you color code the file names for me. Green means that the file is successfully in staging, red means that I have not added this file yet. From here I can choose to commit files, which is what saves the file, like a snapshot. The full command is git commit -m “put your message here.” The quotes is where I insert my love notes to you, describing what changes I made; this makes it convenient for anyone else collaborating on the project. But, when I need to take a step back and reevaluate my commitment, you don’t hold it against me. I can easily take a step back by typing git checkout filename. </p>
+			<p>Git, you have made versioning so easy. One of my favorite things about you is that I can save and commit versions without the slightest hint of an internet connection. But, when I do decide to add it to the remote server, you have provided a few commands for me. In the course of our relationship we have used <a href="../github-love-letter">GitHub</a>, a platform that can simultaneously store our repositories and allow us to collaborate with others. To add connect the local and remote repositories, we get into the desired direcotry, and use the command <span>git remote add origin server url.</span> Or, if I am wanting a copy of an existing repository I can use the command <span>git clone path/to/repository</span> or <span> git clone repository url.</span> To pull down any changes I have made from another device, or someone I am collaborating with has made, I use the command <span>git fetch origin mater</span> or <span>git pull origin master.</span> The fetch command allows me to update my repository but does not merge the changes with my local files, while the pull command both updates my repository and local files, reflecting the changes instantly. To update the remote server with changes made locally, I use the command <span>git push origin master</span>. </p>
+
+			<p>To actually have changes to push, pull, or fetch, we have to make changes and commit them. To start the process you have to get into the desired directory. Once there, the magic begins. To make this directory a repository we simply type <span>git init,</span> which allows us to have a versioning system for this directory. With this command, you create a secret file for me, the .git file, which is hidden to the naked eye but revealed with our secret password, the command ls -la. From here we can create files, add files, or create versions that will be stored here. Once I have created a new file, or updated one, say an index page, we can stage it through the command <span>git add</span> (followed by the file name OR a period, the . allows you to add all files that have been changed or added). To see if this has worked you have created the wonderful command <span>git status.</span> Once I type this, you color code the file names for me. Green means that the file is successfully in staging, red means that I have not added this file yet. </p>
+			
+			<p>From here I can choose to commit files, which is what saves the file, like a snapshot. The full command is <span>git commit -m “put your message here.”</span> The quotes is where I insert my love notes to you, describing what changes I made; this makes it convenient for anyone else collaborating on the project. One of my favorite things about you is your willingness to try new things. I have the ability to create what you call branches, which allow me to make different versions of a project while still keeping the main files active. To create a new branch the we use the command <span>git checkout -b.</span> If we want to see all of the available branches we can use the command <span>git branch</span> and they are all listed there for me with a * to mark the current branch we are in. If I ever am feeling adventurous and confident with my changes, I can easily merge them with the master branch using the command <span>git merge</span> followed by the branch I am wanting to merge the current one with. </p>
+			
+			<p>Without you Git, I would be lost. You even provide a detailed log of all commits to each branch. I use the command <span>git log</span> and you show me the all of the details for each commit, including the time/date, user, user email, and commit message. If I ever need to update my user name or email I use the command <span>git config --global user.name "my name"</span> or <span>git config --global user.email "my email"</span> </p>
+
+			<p>Git, my life would not be complete without you in it. You are such a beautiful and intricate system, and I know I still have a lot to learn. I look forward to getting to know each piece of you and learning new ways you can improve my web development process. Thanks for everything.</p>
+
+
 				<p>Forever yours, <br> Caitlin</p>
 			</section>
 		</div>

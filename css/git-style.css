@@ -1,0 +1,92 @@
+/* universal styles */
+ 
+ /*css reset chris coyier*/
+*, 
+*:before, 
+*:after{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*clearfix paul irish*/
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+ /*global styles*/
+
+.centerme{
+	text-align: center; 
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.hide{
+	display: none;
+}
+
+/*page styles*/
+
+.home{
+font-family: 'Quattrocento Sans', sans-serif;
+	background: url(../img/love-background.jpg) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: rgba(255, 255, 255, 1);
+}
+
+body{
+	background: rgba(100,100,100,0.8);
+}
+
+h1{
+	font-size: 600%;
+	text-align: center;
+	font-weight: 700;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 40px;
+
+}
+
+.leftLine{
+	border-left: thick solid rgba(255, 255, 255, 1);
+}
+
+p{
+	margin-bottom: 10px;
+	font-size: 100%; 
+	line-height: 20px;
+}
+
+.box{
+	padding: 15px 15px;
+	margin-bottom: 15px; 
+	margin-left:30%;
+}
+
+a{
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+
+}
+
+span{
+	font-weight:700;
+	color: rgba(255, 50, 75, 1);
+}
